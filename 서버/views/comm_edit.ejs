@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <TITLE> 보듬 관리자페이지</TITLE>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</HEAD>
+<BODY>
+<!--<link rel = "stylesheet" type = "text/css" href = "/stylesheets/mystyle.css"> -->
+<!--
+	<header> 
+		<figure> 
+		<h2><a href="/join">보듬 관리자페이지</a></h2>
+		</figure>
+	</header>
+-->
+ <center>
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid" style="background-color:#101248; border-style:hidden;">
+    <div class="navbar-header">
+      <a class="navbar-brand"  href="/join">보듬 관리자페이지</a>
+    </div>  
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">회원관리
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="/mboard/mup">정보수정</a></li>
+                    <li><a href="/mboard/list">정보삭제</a></li> 
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">시설관리
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="/facil/create">정보추가</a></li>
+                    <li><a href="/facil/up">정보수정</a></li>
+                    <li><a href="/facil/del">정보삭제</a></li> 
+                </ul>
+            </li>
+                <li><a href="/comm/list" target="_self">커뮤니티관리</a></li>
+                <li><a href="/review/list" target="_self">리뷰관리</a></li>
+
+        </ul>
+     </div> 
+   </nav>
+</center>  
+    <div style="padding-bottom: 150px;"></div>
+    <center>
+    <form method="post" action="/comm/update_complete/<%=cursor[0].Comm_id%>">
+    <div class="container">    
+    <div class="panel panel-default">
+      <!-- Default panel contents -->
+      <div class="panel-heading">커뮤니티 수정</div>
+        <table class="table">
+
+            <tr>
+                <th scope="row">글 번호</th>
+                <td><%=cursor[0].Comm_id%></td>
+            </tr>
+            <tr>
+                <th scope="row">제목</th>
+                <td><input class="form-control" type="text" name="title" value="<%=cursor[0].Comm_title%>"/></td>
+            </tr>
+            <tr>
+                <th scope="row">내용</th>
+                <td><textarea class = "form-control col-sm-5" type="text" name="content"><%=cursor[0].Comm_content%></textarea></td>
+            </tr>
+            
+
+         </table>
+        </div>
+        
+        <input type="submit" value="수정">
+        <input type="button" value="취소" onclick="location.href='../list/' ">
+        </div>
+    </form>
+    </center>
+  
+  <!-- Footer -->
+    <footer style="padding-top: 15px; padding-bottom: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class="copyright text-muted">Copyright &copy; bodeum</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </BODY>
+</HTML>

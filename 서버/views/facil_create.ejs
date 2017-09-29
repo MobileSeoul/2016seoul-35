@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <TITLE> 보듬 관리자페이지</TITLE>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</HEAD>
+<BODY>
+<!--<link rel = "stylesheet" type = "text/css" href = "/stylesheets/mystyle.css"> -->
+<!--
+	<header> 
+		<figure> 
+		<h2><a href="/join">보듬 관리자페이지</a></h2>
+		</figure>
+	</header>
+-->
+ <center>
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid" style="background-color:#101248; border-style:hidden;">
+    <div class="navbar-header">
+      <a class="navbar-brand"  href="/join">보듬 관리자페이지</a>
+    </div>  
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">회원관리
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="/mboard/mup">정보수정</a></li>
+                    <li><a href="/mboard/list">정보삭제</a></li> 
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">시설관리
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="/facil/create">정보추가</a></li>
+                    <li><a href="/facil/up">정보수정</a></li>
+                    <li><a href="/facil/del">정보삭제</a></li> 
+                </ul>
+            </li>
+                <li><a href="/comm/list" target="_self">커뮤니티관리</a></li>
+                <li><a href="/review/list" target="_self">리뷰관리</a></li>
+
+        </ul>
+     </div> 
+   </nav>
+</center>  
+ <div style="padding-bottom: 150px;"></div>
+    <center>
+    <form id="uploadForm" enctype="multipart/form-data" method="post" action="/facil/upload" >
+         
+ <div class="container">    
+    <div class="panel panel-default">
+      <!-- Default panel contents -->
+      <div class="panel-heading">시설 추가 페이지</div>
+        <table class="table">
+
+            <tr>
+                <th scope="row">이름</th>
+                <td><input class="form-control" type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <th scope="row">수용인원</th>
+                <td><input class="form-control" type="number" name="count"id="count"></td>
+            </tr>
+            <tr>
+                <th scope="row">주소</th>
+                <td><input class="form-control" type="text" name="addr" id="addr"></td>
+            </tr>
+            <tr>
+                <th scope="row">전화번호</th>
+                <td><input class="form-control" type="tel" name="call" id="call"></td>
+            </tr>
+            <tr>
+                <th scope="row">평균등급</th>
+                <td><input class="form-control" type="text" name="avg" id="avg"></td>
+            </tr>
+            <tr>
+                <th scope="row">시설환경등급</th>
+                <td><input class="form-control" type="text" name="mang" id="mang"></td>
+            </tr>
+            <tr>
+                <th scope="row">재정등급</th>
+                <td><input class="form-control" type="text" name="sour" id="sour"></td>
+            </tr>
+            <tr>
+                <th scope="row">서비스등급</th>
+                <td><input class="form-control" type="text" name="pro" id="pro"></td>
+            </tr>
+            <tr>
+                <th scope="row">아동권리등급</th>
+                <td><input class="form-control" type="text" name="chil" id="chil"></td>
+            </tr>
+            <tr>
+                <th scope="row">사회관계등급</th>
+                <td><input class="form-control" type="text" name="env" id="chil"></td>
+            </tr>
+            <tr>
+                <th scope="row">자원관리등급</th>
+                <td><input class="form-control" type="text" name="aut" id="aut"></td>
+            </tr>
+            <tr>
+                <th scope="row">종사자</th>
+                <td><input class="form-control" type="text" name="ecount" id="ecount"></td>
+            </tr>
+            <tr>
+                <th scope="row">종류</th>
+                <td><input class="form-control" type="text" name="kind" id="kind"></td>
+                
+            </tr>
+            <tr>
+                <th scope="row">시설 사진</th>
+                <td><input type="file" name="userPhoto" multiple/></td>   
+            </tr>
+        </table>
+        </div>
+        <input type="submit" value="시설 추가" name="submit"/>
+      </div>
+    </form>
+ </center>
+ <!-- Footer -->
+    <footer style="padding-top: 15px; padding-bottom: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class="copyright text-muted">Copyright &copy; bodeum</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</BODY>
+</HTML>
