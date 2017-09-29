@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="318dp"
+    android:layout_height="522dp"
+    android:background="@drawable/border_review"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="후기"
+                android:textColor="#000000"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="27dp"
+                android:layout_weight="2" />
+
+            <Button
+                android:background="@mipmap/popup_close"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/btnFinish"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_weight="0.5"
+            android:layout_marginRight="11dp"
+            android:layout_marginLeft="11dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivTotalScore"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="2dp"
+                android:src="@mipmap/star_ever_full"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.0"
+                android:id="@+id/txtScore"
+                android:textColor="#000000"
+                android:layout_marginLeft="2px"
+                android:layout_marginBottom="18px"
+                android:layout_marginTop="18px"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reviewList"
+            android:background="#ffffff"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="11"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

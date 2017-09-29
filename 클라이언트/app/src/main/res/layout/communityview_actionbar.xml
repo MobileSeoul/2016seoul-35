@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAccent">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@mipmap/tab_bg"
+        android:fitsSystemWindows="true"
+        app:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/communityview_finish"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/back_btn_white"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

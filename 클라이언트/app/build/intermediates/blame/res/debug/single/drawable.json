@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ka1.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\ka1.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_login_bar.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable\\kakao_login_bar.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_account_logo.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable\\kakao_account_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border4.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\border4.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\star.PNG",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\star.PNG"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bar.PNG",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\bar.PNG"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_default_profile_image.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable\\kakao_default_profile_image.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pht1.jpg",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\pht1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border3.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\border3.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_editable_profile.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable\\kakao_editable_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_on_off.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\btn_on_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_review.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\border_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_profile_boxbg.9.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable\\kakao_profile_boxbg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_cancel_button_background.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable\\kakao_cancel_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_login_button_background.9.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable\\kakao_login_button_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_close_button.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\auth\\1.1.7\\res\\drawable\\kakao_close_button.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\soptlogo.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\soptlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border1.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\border1.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_login_symbol.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable\\kakao_login_symbol.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border2.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\border2.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border5.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\border5.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ka2.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\ka2.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ka3.jpg",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\ka3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_account_button_background.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable\\kakao_account_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_cursor.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\drawable\\color_cursor.xml"
+    }
+]

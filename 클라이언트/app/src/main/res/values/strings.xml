@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">보듬</string>
+    <string name="title_activity_navigation">Bodeum</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_login_">login_Activity</string>
+    <string name="title_activity_faciliy_info_">FaciliyInfo_Activity</string>
+    <string name="action_back"></string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="linearOnClick"
+    android:id="@+id/loginLayout"
+    android:background="@mipmap/login_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="303dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:background="@mipmap/email_icon"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:layout_width="265dp"
+                android:layout_height="45dp"
+                android:id="@+id/editEmail"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="이메일"
+                android:backgroundTint="#bfe2f8"
+                android:inputType="textEmailAddress"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:background="@mipmap/pw_icon"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:layout_width="265dp"
+                android:layout_height="45dp"
+                android:id="@+id/editPassword"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:hint="비밀번호"
+                android:backgroundTint="#bfe2f8"
+                android:inputType="textPassword"
+                android:layout_centerHorizontal="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogin"
+            android:layout_marginLeft="62.5dp"
+            android:layout_marginBottom="18.5dp"
+            android:layout_marginRight="62.5dp"
+            android:layout_marginTop="18.5dp"
+            android:background="@mipmap/login_btn"
+            android:longClickable="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRegist"
+            android:layout_marginLeft="62.5dp"
+            android:layout_marginBottom="18.5dp"
+            android:layout_marginRight="62.5dp"
+            android:background="@mipmap/join_btn" />
+
+
+    </LinearLayout>
+
+    <!--android:layout_alignTop="@+id/com_kakao_login"-->
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:max="500"
+            android:progress="0"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+</LinearLayout>

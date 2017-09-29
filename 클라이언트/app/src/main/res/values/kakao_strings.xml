@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+    <!--<string name="kakao_app_key"> e5a48abc390bffe8d78347846a57a024 </string>-->
+<!--</resources>-->
+
+<resources>
+<string name="kakao_app_key"> a8998ad95f44c037d2068180c13f102e </string>
+</resources>

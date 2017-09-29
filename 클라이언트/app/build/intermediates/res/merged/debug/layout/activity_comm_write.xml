@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="linearOnClick"
+    android:background="#ffffff"
+    android:id="@+id/comm_write_Layout">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/editCommWriteTitle"
+            android:hint="제목을 입력해주세요"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:singleLine="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_below="@+id/editCommWriteTitle"
+            android:layout_marginTop="2dp"
+            android:background="#81B4E5"/>
+
+        <EditText
+            android:id="@+id/editCommWriteContent"
+            android:layout_width="344dp"
+            android:layout_height="326dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/border1"
+            android:gravity="start"
+            android:padding="9dp"
+            android:hint=" 내용을 입력해주세요"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignLeft="@+id/linearLayout1">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp">
+
+        <ImageButton
+            android:id="@+id/btnCommWriteFin"
+            android:background="@mipmap/write_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

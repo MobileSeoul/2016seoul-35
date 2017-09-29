@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@mipmap/nav_heart"
+        android:title="찜한 장소" />
+    <item
+        android:id="@+id/edit_profile"
+        android:icon="@mipmap/nav_edit"
+        android:title="회원 정보 수정" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@mipmap/nav_logout"
+        android:title="로그아웃" />
+    <item
+        android:id="@+id/leave"
+        android:icon="@mipmap/nav_edit"
+        android:title="회원 탈퇴" />
+
+</menu>

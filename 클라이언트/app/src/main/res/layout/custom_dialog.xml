@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="280dp"
+    android:background="@drawable/border5"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="정말 탈퇴하시겠습니까?"
+        android:textColor="@color/color_txt"
+        android:textSize="18sp"
+        android:layout_weight="3.5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_dialog_yes"
+            android:layout_width="72dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="40.3px"
+            android:background="@mipmap/button_cancel"/>
+
+        <Button
+            android:id="@+id/btn_dialog_no"
+            android:layout_width="72dp"
+            android:layout_height="32dp"
+            android:background="@mipmap/button_ok"/>
+    </LinearLayout>
+</LinearLayout>

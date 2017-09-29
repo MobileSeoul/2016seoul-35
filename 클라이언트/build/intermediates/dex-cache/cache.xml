@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.3.0_be083943f65e577749fc03187b01868eab9d39cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_a371d6c0f6c376695e4f45ef0c2f2edb01323354.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\okio-1.6.0_71e5cd05ee87ce80008ad79e91b28c2037bcf3a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.3.0_5cae28613fb60158ad0d8e9e4a72ebed7bf199ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.3.0_5827ce61066ecd2b3de6248987bb5819cbfca023.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\gson-2.3.1_ef9e1adc87ae13828db56b2f553a77b2a2e33a07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\com.android.support-multidex-1.0.0_0f688120de17e6a962606d72c37d2f3a49221373.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.4.0_1124aa18f8647a857ba87702a44192bad4e39447.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\exploded-aar\com.kakao.sdk\network\1.1.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="83d318091bcf5a6599895cfd210c09ec5d5e99f7">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\com.kakao.sdk-network-1.1.7_c7102f758b1e7df28fea9f8383516fad8f13e55a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9b79be7666a8d0a176114fc0f2bfed8a2cdc0246">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_2f3d01fb98cc20e839f1ee198fe1d4a3e3ad4efe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta2\392c3d09e0f5e7087544093cc0cb23bb9c7af5fa\converter-gson-2.0.0-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta2_57387ad158b1395af831594e11b42c253af8bee0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\exploded-aar\com.kakao.sdk\util\1.1.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="cd274d51f5c8edd33f90cd59439813f1b8e0da6a">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\com.kakao.sdk-util-1.1.7_66230f9b76563d884224e063d73593a8cb2a7c10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\exploded-aar\com.kakao.sdk\usermgmt\1.1.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="db5778b91fccdd64b42bf28eaf7bf3c2c6cad256">
+        <dex dex="C:\Users\USER\Desktop\bodeum\Bodeum0\app\build\intermediates\pre-dexed\debug\com.kakao.sdk-usermgmt-1.1.7_cc55de971126f63872a73e2915a3743c2604d8f6.jar" />
+    </item>
+
+</items>

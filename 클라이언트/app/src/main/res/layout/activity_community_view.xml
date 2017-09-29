@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!--액션바-->
+
+    <include layout="@layout/communityview_actionbar" />
+
+    <!--글내용-->
+    <ScrollView
+        android:id="@+id/scrollViewCommView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true">
+        <!--스크롤뷰 안에는 하나의 자식밖에 못 갖기 때문에 리니어에 담아서 씀-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--이름 날짜 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ivCommViewProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/community_profile" />
+
+                    <TextView
+                        android:id="@+id/txtCommViewName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="닉네임" />
+
+                    <TextView
+                        android:id="@+id/txtCommViewDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="right"
+                        android:text="2016.07.09" />
+
+                </LinearLayout>
+
+                <!--구분선-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#9E9E9E" />
+
+                <!--제목 컨텐츠 사진-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--제목-->
+                    <TextView
+                        android:id="@+id/txtCommViewTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="14dp"
+                        android:text="" />
+
+                    <ImageView
+                        android:id="@+id/ivCommMainContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/border4" />
+                </LinearLayout>
+
+                <!--글내용-->
+                <TextView
+                    android:id="@+id/txtCommViewContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="14dp"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    >
+                </LinearLayout>
+
+                <!--구분선-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#9E9E9E" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lvCommViewReply"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--댓글 쓰기-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_weight="0"
+        android:background="@drawable/border4"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="0.06"
+            android:background="#00000000"
+            android:src="@mipmap/community_reply"
+            android:id="@+id/imageView2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:paddingTop="12dp"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/editCommViewWrite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="@null"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:hint="댓글 달기..."
+                android:textSize="15sp"
+                android:inputType="textMultiLine"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:maxLength="2000"
+                android:maxLines="4"
+                android:layout_weight="1.00" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnCommViewWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_weight="0.05"
+            android:paddingBottom="5dp"
+            android:background="#00000000"
+            android:src="@mipmap/community_ok" />
+    </LinearLayout>
+</LinearLayout>

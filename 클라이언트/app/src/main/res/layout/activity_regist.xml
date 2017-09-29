@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    android:onClick="linearOnClick"
+    android:id="@+id/registLayout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/join_email"
+                android:layout_gravity="center"
+                android:layout_marginLeft="37dp"
+                android:layout_marginRight="8dp"/>
+
+            <EditText
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editEmail"
+                android:hint="이메일"
+                android:backgroundTint="#bfe2f8"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:textSize="15sp"
+                android:inputType="textEmailAddress"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/join_pw"
+                android:layout_gravity="center"
+                android:layout_marginLeft="37dp"
+                android:layout_marginRight="8dp"/>
+
+            <EditText
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editPassword"
+                android:hint="비밀번호"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:backgroundTint="#bfe2f8"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/join_pwcheck"
+                android:layout_gravity="center"
+                android:layout_marginLeft="37dp"
+                android:layout_marginRight="8dp"/>
+
+            <EditText
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editPasswordCheck"
+                android:hint="비밀번호 확인"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:backgroundTint="#bfe2f8"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/join_name"
+                android:layout_gravity="center"
+                android:layout_marginLeft="37dp"
+                android:layout_marginRight="8dp"/>
+
+            <EditText
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/editName"
+                android:hint="이름"
+                android:backgroundTint="#bfe2f8"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/join_nickname"
+                android:layout_gravity="center"
+                android:layout_marginLeft="37dp"
+                android:layout_marginRight="8dp"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editNickname"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="닉네임"
+                android:backgroundTint="#bfe2f8"
+                android:textSize="15dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/join_check"
+                android:id="@+id/btnNicknameCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/join_birth"
+                android:layout_gravity="center"
+                android:layout_marginLeft="37dp"
+                android:layout_marginRight="8dp"/>
+
+            <EditText
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editBirth"
+                android:hint="생년월일"
+                android:backgroundTint="#bfe2f8"
+                android:inputType="date"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/join_ok"
+                android:id="@+id/btnDone" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@mipmap/join_cancel"
+                android:id="@+id/btnCancel" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

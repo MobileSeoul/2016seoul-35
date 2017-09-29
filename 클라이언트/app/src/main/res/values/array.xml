@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="city2">
+        <item>[시설종류]</item>
+        <item>노인요양원</item>
+        <item>중증장애인거주시설</item>
+        <item>보호작업장</item>
+        <item>지체장애인시설</item>
+        <item>근로사업장</item>
+        <item>장애인단기거주시설</item>
+        <item>지적장애인시설</item>
+        <item>시각장애인시설</item>
+        <item>장애인단기거주시설</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small\\kakaotalk_icon.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable-small\\kakaotalk_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small\\kakaostory_icon.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable-small\\kakaostory_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small\\kakaoaccount_icon.png",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.7\\res\\drawable-small\\kakaoaccount_icon.png"
+    }
+]

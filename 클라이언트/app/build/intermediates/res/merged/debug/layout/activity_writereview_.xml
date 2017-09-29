@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RatingBar
+                android:id="@+id/ratBarReviewWrite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-52dp"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginRight="-37dp"
+                android:layout_marginTop="20dp"
+                android:isIndicator="false"
+                android:max="5"
+                android:numStars="5"
+                android:rating="0"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:stepSize="1"
+                android:theme="@style/RatingBar"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/rateText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="32dp"
+                android:textSize="19sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        android:padding="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/border1"
+        android:id="@+id/editReviewWriteContent"
+        android:layout_width="344dp"
+        android:layout_height="326dp"
+        android:hint="내용을 입력해주세요"
+        android:gravity="start" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignLeft="@+id/linearLayout1">
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/btnReviewWriteFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18.5dp"
+        android:layout_gravity="center"
+        android:background="#00000000"
+        android:src="@mipmap/write_ok" />
+
+</LinearLayout>

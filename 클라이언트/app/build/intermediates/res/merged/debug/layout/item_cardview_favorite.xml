@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView_fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ededed"
+        android:layout_marginBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="344dp"
+            android:layout_height="193dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_fav"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/favoriteBtn1"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/imageView_fav"
+                android:layout_alignEnd="@+id/imageView_fav"
+                android:layout_margin="11dp"
+                android:background="@mipmap/card_heart_full" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#75000000"
+                android:weightSum="1"
+                android:layout_alignBottom="@+id/imageView_fav"
+                android:layout_alignLeft="@+id/imageView_fav"
+                android:layout_alignStart="@+id/imageView_fav">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image_rank_fav"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="10.5dp"
+                    android:layout_marginTop="10.5dp"
+                    android:layout_weight="0.05"
+                    android:layout_marginRight="10dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="3.5dp">
+
+                    <TextView
+                        android:id="@+id/textView1_fav"
+                        android:text="시설이름"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textIsSelectable="true"
+                        android:layout_marginTop="10.5dp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3.5dp">
+
+                        <TextView
+                            android:id="@+id/textView2_fav"
+                            android:text="후기"
+                            android:textSize="13sp"
+                            android:textColor="#FFFFFF"
+                            android:layout_below="@+id/textView1_fav"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp" />
+                        <TextView
+                            android:id="@+id/textView4_fav"
+                            android:textColor="#FFFFFF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:text="33" />
+
+                        <TextView
+                            android:id="@+id/textView5_fav"
+                            android:textColor="#FFFFFF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:text="개"
+                            android:layout_marginRight="8dp" />
+
+                        <TextView
+                            android:id="@+id/textView3_fav"
+                            android:text="시설 종류"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        a
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

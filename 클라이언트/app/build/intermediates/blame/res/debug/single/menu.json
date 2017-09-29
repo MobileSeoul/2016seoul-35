@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\menu\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_navigation_drawer.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\menu\\activity_navigation_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\facilityinfo.xml",
+        "source": "C:\\Users\\USER\\Desktop\\bodeum\\Bodeum0\\app\\src\\main\\res\\menu\\facilityinfo.xml"
+    }
+]
